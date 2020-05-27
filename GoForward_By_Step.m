@@ -1,6 +1,5 @@
 function [ thetaLpre,thetaLact,thetaRpre,thetaRact,R,L,Theta,d_thetaR,d_thetaL,x,y,s] = GoForward_By_Step( vcomm,thetaLpre,thetaRpre,thetaLact,thetaRact,R,L,Theta,d_thetaR,d_thetaL,x,y,s)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+
     
 MotorL.Speed = vcomm;
 MotorR.Speed = vcomm;
